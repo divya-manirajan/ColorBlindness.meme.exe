@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E027CF821802EA0006B3B2C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E027CF721802EA0006B3B2C /* Default-568h@2x.png */; };
 		9E0F4C3021798324009ABD0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F4C2F21798324009ABD0A /* AppDelegate.swift */; };
 		9E0F4C3221798324009ABD0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F4C3121798324009ABD0A /* ViewController.swift */; };
 		9E0F4C3521798324009ABD0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0F4C3321798324009ABD0A /* Main.storyboard */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9E0F4C2C21798324009ABD0A /* ColorBlindnessTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorBlindnessTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E027CF721802EA0006B3B2C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9E0F4C2C21798324009ABD0A /* ColorBlindnessTest_Draft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorBlindnessTest_Draft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0F4C2F21798324009ABD0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E0F4C3121798324009ABD0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E0F4C3421798324009ABD0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +42,8 @@
 		9E0F4C2321798324009ABD0A = {
 			isa = PBXGroup;
 			children = (
-				9E0F4C2E21798324009ABD0A /* ColorBlindnessTest */,
+				9E027CF721802EA0006B3B2C /* Default-568h@2x.png */,
+				9E0F4C2E21798324009ABD0A /* ColorBlindnessTest_Draft */,
 				9E0F4C2D21798324009ABD0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +51,12 @@
 		9E0F4C2D21798324009ABD0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E0F4C2C21798324009ABD0A /* ColorBlindnessTest.app */,
+				9E0F4C2C21798324009ABD0A /* ColorBlindnessTest_Draft.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9E0F4C2E21798324009ABD0A /* ColorBlindnessTest */ = {
+		9E0F4C2E21798324009ABD0A /* ColorBlindnessTest_Draft */ = {
 			isa = PBXGroup;
 			children = (
 				9E0F4C2F21798324009ABD0A /* AppDelegate.swift */,
@@ -64,15 +67,15 @@
 				9E0F4C3821798326009ABD0A /* LaunchScreen.storyboard */,
 				9E0F4C3B21798326009ABD0A /* Info.plist */,
 			);
-			path = ColorBlindnessTest;
+			path = ColorBlindnessTest_Draft;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9E0F4C2B21798324009ABD0A /* ColorBlindnessTest */ = {
+		9E0F4C2B21798324009ABD0A /* ColorBlindnessTest_Draft */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E0F4C3E21798326009ABD0A /* Build configuration list for PBXNativeTarget "ColorBlindnessTest" */;
+			buildConfigurationList = 9E0F4C3E21798326009ABD0A /* Build configuration list for PBXNativeTarget "ColorBlindnessTest_Draft" */;
 			buildPhases = (
 				9E0F4C2821798324009ABD0A /* Sources */,
 				9E0F4C2921798324009ABD0A /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = ColorBlindnessTest;
+			name = ColorBlindnessTest_Draft;
 			productName = ColorBlindnessTest;
-			productReference = 9E0F4C2C21798324009ABD0A /* ColorBlindnessTest.app */;
+			productReference = 9E0F4C2C21798324009ABD0A /* ColorBlindnessTest_Draft.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9E0F4C2721798324009ABD0A /* Build configuration list for PBXProject "ColorBlindnessTest" */;
+			buildConfigurationList = 9E0F4C2721798324009ABD0A /* Build configuration list for PBXProject "ColorBlindnessTest_Draft" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E0F4C2B21798324009ABD0A /* ColorBlindnessTest */,
+				9E0F4C2B21798324009ABD0A /* ColorBlindnessTest_Draft */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +131,7 @@
 				9E0F4C3A21798326009ABD0A /* LaunchScreen.storyboard in Resources */,
 				9E0F4C3721798326009ABD0A /* Assets.xcassets in Resources */,
 				9ECAAA62218021FB009F6A5B /* [Sound Effect] Knuckles - Oh No!.mp3 in Resources */,
+				9E027CF821802EA0006B3B2C /* Default-568h@2x.png in Resources */,
 				9E0F4C3521798324009ABD0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,12 +291,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ColorBlindnessTest/Info.plist;
+				DEVELOPMENT_TEAM = 65F7YN3R73;
+				INFOPLIST_FILE = ColorBlindnessTest_Draft/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dm.ColorBlindnessTest;
+				PRODUCT_BUNDLE_IDENTIFIER = dm.ColorBlindnessTest_Draft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,12 +309,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ColorBlindnessTest/Info.plist;
+				DEVELOPMENT_TEAM = 65F7YN3R73;
+				INFOPLIST_FILE = ColorBlindnessTest_Draft/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dm.ColorBlindnessTest;
+				PRODUCT_BUNDLE_IDENTIFIER = dm.ColorBlindnessTest_Draft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E0F4C2721798324009ABD0A /* Build configuration list for PBXProject "ColorBlindnessTest" */ = {
+		9E0F4C2721798324009ABD0A /* Build configuration list for PBXProject "ColorBlindnessTest_Draft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E0F4C3C21798326009ABD0A /* Debug */,
@@ -328,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E0F4C3E21798326009ABD0A /* Build configuration list for PBXNativeTarget "ColorBlindnessTest" */ = {
+		9E0F4C3E21798326009ABD0A /* Build configuration list for PBXNativeTarget "ColorBlindnessTest_Draft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E0F4C3F21798326009ABD0A /* Debug */,
