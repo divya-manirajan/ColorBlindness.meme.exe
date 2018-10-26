@@ -13,7 +13,8 @@
 		9E0F4C3521798324009ABD0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0F4C3321798324009ABD0A /* Main.storyboard */; };
 		9E0F4C3721798326009ABD0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0F4C3621798326009ABD0A /* Assets.xcassets */; };
 		9E0F4C3A21798326009ABD0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0F4C3821798326009ABD0A /* LaunchScreen.storyboard */; };
-		9ECAAA62218021FB009F6A5B /* [Sound Effect] Knuckles - Oh No!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ECAAA61218021FB009F6A5B /* [Sound Effect] Knuckles - Oh No!.mp3 */; };
+		9E174311218248B600ED5224 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E174310218248B500ED5224 /* AVFoundation.framework */; };
+		9E17431321824B2E00ED5224 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E17431221824B2E00ED5224 /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		9E0F4C3621798326009ABD0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E0F4C3921798326009ABD0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E0F4C3B21798326009ABD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9ECAAA61218021FB009F6A5B /* [Sound Effect] Knuckles - Oh No!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[Sound Effect] Knuckles - Oh No!.mp3"; sourceTree = "<group>"; };
+		9E174310218248B500ED5224 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9E17431221824B2E00ED5224 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E174311218248B600ED5224 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +48,7 @@
 				9E027CF721802EA0006B3B2C /* Default-568h@2x.png */,
 				9E0F4C2E21798324009ABD0A /* ColorBlindnessTest_Draft */,
 				9E0F4C2D21798324009ABD0A /* Products */,
+				9E17430F218248B500ED5224 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,11 +67,19 @@
 				9E0F4C3121798324009ABD0A /* ViewController.swift */,
 				9E0F4C3321798324009ABD0A /* Main.storyboard */,
 				9E0F4C3621798326009ABD0A /* Assets.xcassets */,
-				9ECAAA61218021FB009F6A5B /* [Sound Effect] Knuckles - Oh No!.mp3 */,
+				9E17431221824B2E00ED5224 /* sound.mp3 */,
 				9E0F4C3821798326009ABD0A /* LaunchScreen.storyboard */,
 				9E0F4C3B21798326009ABD0A /* Info.plist */,
 			);
 			path = ColorBlindnessTest_Draft;
+			sourceTree = "<group>";
+		};
+		9E17430F218248B500ED5224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E174310218248B500ED5224 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +142,8 @@
 			files = (
 				9E0F4C3A21798326009ABD0A /* LaunchScreen.storyboard in Resources */,
 				9E0F4C3721798326009ABD0A /* Assets.xcassets in Resources */,
-				9ECAAA62218021FB009F6A5B /* [Sound Effect] Knuckles - Oh No!.mp3 in Resources */,
 				9E027CF821802EA0006B3B2C /* Default-568h@2x.png in Resources */,
+				9E17431321824B2E00ED5224 /* sound.mp3 in Resources */,
 				9E0F4C3521798324009ABD0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
